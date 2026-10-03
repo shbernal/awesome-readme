@@ -52,7 +52,7 @@ In this order, skipping what the project doesn't have:
 ## Visuals
 
 - Show before telling. The demo goes above the first paragraph.
-- Prefer a gif or video over a static screenshot for anything interactive. For terminal tools, a VHS or asciinema recording.
+- Prefer a gif or video over a static screenshot for anything interactive. For terminal tools, a VHS or asciinema recording. For GUI and web apps, a screen recording converted with gifski.
 - Put images next to the feature they show, not all in 1 gallery, unless the output itself is the selling point.
 - Use 1 diagram that explains the project at a glance when there is one to draw. Use mermaid for architecture and data flow.
 - Put a chart next to any benchmark table.
