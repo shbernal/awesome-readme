@@ -120,7 +120,7 @@ It should not repeat what other files already say.
 | <a href="https://github.com/zellij-org/zellij#readme"><img src="https://raw.githubusercontent.com/zellij-org/zellij/main/assets/logo.png" height="32" alt="zellij"><br>zellij</a> | <ul><li>Logo, then a gif of it in use right away</li><li>Roadmap as a chart with 3 clear phases</li><li>1-word or question section titles</li></ul> |
 | <a href="https://github.com/hyprwm/hyprland#readme"><img src="https://github.com/hyprwm.png" height="32" alt="Hyprland"><br>Hyprland</a> | <ul><li>Section links on top styled with HTML</li><li>Short feature list</li><li>Gallery of what people built with it</li></ul> |
 
-### Languages and tools for writing
+### Markup and typesetting
 
 | Project | Takeaways |
 | :---: | :--- |
