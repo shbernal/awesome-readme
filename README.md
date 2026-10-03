@@ -80,7 +80,7 @@ It should not repeat what other files already say.
 ### Text
 
 - 1 idea per line. No walls of text.
-- Short section titles. 1 word or a question ("Why?", "Install").
+- Short, straight-to-the-point section titles, like "Why?" or "Install".
 - Tables for comparisons, compatibility and supported targets. Keep columns to what matters.
 - Put a chart next to benchmark tables, and a mermaid diagram next to architecture explanations.
 - A "Lineage" section for a project evolving from prior projects.
