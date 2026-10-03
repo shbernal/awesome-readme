@@ -42,11 +42,22 @@ In this order, skipping what the project doesn't have:
 - Logo or banner on top. If the project has none, use the name as a heading and say so to the user.
 - 1 line that says what the project does. Fewer words is better. "Find, verify, and analyze leaked credentials" is the bar.
 - shields.io badges only for facts a newcomer cares about, like version, license, CI status, downloads. Match their style to each other.
-- Section links as `<kbd>` buttons with reference links, between 2 `---` rules:
+- Section links as 1 centered row between 2 `---` rules. Pick by effort:
+  - Low effort: plain links separated by bullets (`•`, U+2022) or pipes (`|`).
+  - Easy, little customization: `<kbd>` buttons. GitHub fixes their text at 11px.
+  - Full control: SVG buttons, 1 light and 1 dark SVG per button. Build the gap between buttons into each SVG as transparent margin, and convert the text to outlines, since SVGs in `<img>` can't load fonts.
 
 ```markdown
-**[<kbd> <br> Install <br> </kbd>][Install]**
-**[<kbd> <br> Quickstart <br> </kbd>][Quickstart]**
+[Install](#install) • [Quickstart](#quickstart) • [Usage](#usage)
+```
+
+```markdown
+<a href="#install"><kbd>Install</kbd></a> <a href="#quickstart"><kbd>Quickstart</kbd></a>
+```
+
+```markdown
+<a href="#install"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav/install-dark.svg"><img alt="Install" src="assets/nav/install-light.svg"></picture></a>
+<a href="#quickstart"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav/quickstart-dark.svg"><img alt="Quickstart" src="assets/nav/quickstart-light.svg"></picture></a>
 ```
 
 ## Visuals
