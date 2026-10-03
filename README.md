@@ -7,11 +7,17 @@
 
 ### Opinionated guide to READMEs for AI-driven development
 
-**[<kbd> <br> Criteria <br> </kbd>][Criteria]**
-**[<kbd> <br> Best practices <br> </kbd>][Best practices]**
-**[<kbd> <br> Examples <br> </kbd>][Examples]**
-**[<kbd> <br> Skill <br> </kbd>][Skill]**
-**[<kbd> <br> Contribute <br> </kbd>][Contribute]**
+[![Agent skill][skill-badge]][Skill]
+[![Last commit][commit-badge]][commits]
+[![License][license-badge]][license]
+
+---
+
+<a href="#what-a-readme-is-for"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav/criteria-dark.svg"><img alt="Criteria" src="assets/nav/criteria-light.svg"></picture></a>
+<a href="#best-practices"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav/best-practices-dark.svg"><img alt="Best practices" src="assets/nav/best-practices-light.svg"></picture></a>
+<a href="#examples"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav/examples-dark.svg"><img alt="Examples" src="assets/nav/examples-light.svg"></picture></a>
+<a href="#skill"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav/skill-dark.svg"><img alt="Skill" src="assets/nav/skill-light.svg"></picture></a>
+<a href="CONTRIBUTING.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav/contribute-dark.svg"><img alt="Contribute" src="assets/nav/contribute-light.svg"></picture></a>
 
 ---
 
@@ -162,8 +168,10 @@ For prose, pair it with the [unslop skill](https://github.com/cursor/plugins/blo
 
 <!----------------------------------------------------------------------------->
 
-[Criteria]: #what-a-readme-is-for
-[Best practices]: #best-practices
-[Examples]: #examples
 [Skill]: #skill
-[Contribute]: CONTRIBUTING.md
+[commits]: https://github.com/shbernal/awesome-readme/commits/main
+[license]: LICENSE
+
+[skill-badge]: https://img.shields.io/badge/agent_skill-awesome--readme-9854f1?style=for-the-badge
+[commit-badge]: https://img.shields.io/github/last-commit/shbernal/awesome-readme?style=for-the-badge&color=7aa2f7
+[license-badge]: https://img.shields.io/github/license/shbernal/awesome-readme?style=for-the-badge&color=e0af68
