@@ -60,6 +60,23 @@ It should not repeat what other files already say.
 - Show logos for supported integrations instead of a bullet list of names.
 - A gallery for projects where the output is the selling point.
 
+### Light and dark
+
+- Every image has to read on both GitHub themes. A black logo on a transparent background disappears in dark mode.
+- Ship a light and a dark version of logos, banners and diagrams, and switch with `<picture>`:
+
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="project-name" src="assets/banner-light.svg">
+</picture>
+```
+
+- The `<img>` is the fallback for npm, crates.io and other sites that ignore `<source>`, so point it at the version that works on white.
+- Skip the `#gh-dark-mode-only` URL fragments. Outside GitHub, both images show.
+- Mermaid diagrams follow the theme on their own. Don't hardcode colors in them.
+- For an image with only 1 version, like a screenshot, give it a solid background.
+
 ### Text
 
 - 1 idea per line. No walls of text.

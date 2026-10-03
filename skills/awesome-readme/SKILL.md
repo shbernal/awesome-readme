@@ -59,6 +59,22 @@ In this order, skipping what the project doesn't have:
 - Show logos of supported integrations instead of a bullet list of names.
 - If you can't produce a visual, leave a commented placeholder and tell the user what to record. Never invent image URLs.
 
+## Light and dark
+
+- Every image has to read on GitHub's light and dark themes. Check logos and diagrams with dark lines on transparent backgrounds.
+- When the project has light and dark versions of an image, switch with `<picture>`. The `<img>` is the light version and the fallback for sites that ignore `<source>`:
+
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+  <img alt="project-name" src="assets/logo-light.svg">
+</picture>
+```
+
+- Don't use `#gh-dark-mode-only` or `#gh-light-mode-only` URL fragments. npm, crates.io and other renderers show both images.
+- Don't hardcode colors in mermaid diagrams. GitHub themes them.
+- If an image has only 1 version and won't read on both themes, tell the user which one and what to fix.
+
 ## Install
 
 - Only the package manager the project uses. Never list npm, yarn, pnpm and bun side by side.
@@ -85,3 +101,4 @@ In this order, skipping what the project doesn't have:
 - Comments inside copyable code blocks.
 - Every command or every option. That's `docs/`.
 - Badges for vanity metrics, or more than 1 row of them.
+- Images that only read on 1 theme.
