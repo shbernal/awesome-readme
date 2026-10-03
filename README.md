@@ -55,6 +55,12 @@ It should not repeat what other files already say.
 
 ## Best practices
 
+### Structure
+
+- Order the sections the way a newcomer asks questions: header, demo, what it is, why, install, quickstart, how it works, further docs.
+- Explain why the project exists before the install section.
+- Skip the sections the project has nothing for.
+
 ### Header
 
 - Logo or banner on top, project name in it.
@@ -85,7 +91,6 @@ It should not repeat what other files already say.
 - Install in 1 command when possible.
 - List install options as 1-line bullets that link to the details, or put them in collapsible `<details>` sections.
 - A step-by-step quickstart or short tutorial to show it's easy to use.
-- Explain why the project exists before the install section.
 
 ### Depth
 
