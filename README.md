@@ -23,9 +23,13 @@
 
 </div>
 
+## Why this project?
+
 While building projects with coding agents, I kept rewriting their READMEs. Over time, I have recognized some patterns and formed opinions on what makes a good README.
 
-This repo is for people looking for inspiration, and for agents that need to be told what good looks like.
+This repo is for people looking for inspiration, and for agents that need to be told what good looks like. The goal is to raise the bar for READMEs in AI-driven development.
+
+The [skill](#skill) distills it all into key guidance. Your agent writes an elegant README with no effort on your part, so you can focus on what matters, like architecture and features.
 
 ## What a README is for
 
