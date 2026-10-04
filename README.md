@@ -71,6 +71,8 @@ It should not repeat what other files already say.
 ### Show, then tell
 
 - Put the visuals before the first paragraph. A gif or video beats a static screenshot.
+- Record real behavior, like a TUI or CLI output, with VHS or asciinema. [Recordings](docs/recordings.md).
+- For a scene you can't record, like an agent session or an MCP call, generate an animated SVG. [How it's built](docs/animated-svg.md).
 - Spread visuals through the README, next to the feature they show.
 - Pick a diagram that explains the project at a glance.
 - Show logos for supported integrations instead of a bullet list of names.
