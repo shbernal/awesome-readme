@@ -107,7 +107,7 @@ In this order, skipping what the project doesn't have:
 ## Text
 
 - 1 idea per line. Break any paragraph over 3 sentences.
-- Short, straight-to-the-point section titles in sentence case, like "Why?", "Install", "Usage".
+- Short, straight-to-the-point section titles in sentence case, like "Why this project?", "Install", "Usage".
 - Tables for comparisons, compatibility and supported targets. Only columns a reader would use to decide.
 - Describe what the project lets you do, not how it's built.
 - For a library, describe capabilities at the API level. For a CLI, TUI or app, describe main uses and how to start.
