@@ -66,7 +66,7 @@ It should not repeat what other files already say.
 - Logo or banner on top, project name in it.
 - Centered header block with [shields.io](https://shields.io) badges in `for-the-badge` style, colored to match the project. [Gallery and recipes](docs/badges.md).
 - A short description. Target 1 line.
-- Section links under the header, styled with a bit of HTML.
+- Section links under the header, styled with a bit of HTML. [Options](docs/navigation.md).
 
 ### Show, then tell
 

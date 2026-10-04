@@ -44,7 +44,7 @@ In this order, skipping what the project doesn't have:
 - shields.io badges only for facts a newcomer cares about, like version, license, CI status, downloads. See "Badges".
 - Section links as 1 centered row between 2 `---` rules. Pick by effort:
   - Low effort: plain links separated by bullets (`•`, U+2022) or pipes (`|`).
-  - Easy, little customization: `<kbd>` buttons. GitHub fixes their text at 11px.
+  - Easy, little customization: `<kbd>` buttons. GitHub fixes their text at 11px, so pad the inside to center the label in a bigger key: a `&nbsp;` line above and below it, and `&nbsp;&nbsp;&nbsp;` on each side. Keep the bottom `&nbsp;`, or the label sits low instead of centered.
   - Full control: SVG buttons, 1 light and 1 dark SVG per button. Build the gap between buttons into each SVG as transparent margin, and convert the text to outlines, since SVGs in `<img>` can't load fonts.
 
 ```markdown
@@ -52,7 +52,7 @@ In this order, skipping what the project doesn't have:
 ```
 
 ```markdown
-<a href="#install"><kbd>Install</kbd></a> <a href="#quickstart"><kbd>Quickstart</kbd></a>
+<a href="#install"><kbd>&nbsp;<br>&nbsp;&nbsp;&nbsp;Install&nbsp;&nbsp;&nbsp;<br>&nbsp;</kbd></a> <a href="#quickstart"><kbd>&nbsp;<br>&nbsp;&nbsp;&nbsp;Quickstart&nbsp;&nbsp;&nbsp;<br>&nbsp;</kbd></a>
 ```
 
 ```markdown
