@@ -256,7 +256,7 @@ Badges go in the centered header block. Use reference links, so each line in the
 [brand-node]: https://img.shields.io/badge/node-%E2%89%A524-00A4EF?style=for-the-badge&logo=nodedotjs&logoColor=white
 [brand-npm]: https://img.shields.io/badge/npm-v1.2.0-F25022?style=for-the-badge&logo=npm&logoColor=white
 
-[dark-version]: https://img.shields.io/badge/version-v1.2.0-7aa2f7?style=for-the-badge&labelColor=1a1b26&logo=npm&logoColor=7aa2f7
+[dark-version]: https://img.shields.io/badge/version-v1.2.0-CB3837?style=for-the-badge&labelColor=1a1b26&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0NCMzgzNyIgZD0iTTEuNzYzIDBDLjc4NiAwIDAgLjc4NiAwIDEuNzYzdjIwLjQ3NEMwIDIzLjIxNC43ODYgMjQgMS43NjMgMjRoMjAuNDc0Yy45NzcgMCAxLjc2My0uNzg2IDEuNzYzLTEuNzYzVjEuNzYzQzI0IC43ODYgMjMuMjE0IDAgMjIuMjM3IDB6Ii8%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTUuMTMgNS4zMjNsMTMuODM3LjAxOS0uMDA5IDEzLjgzNmgtMy40NjRsLjAxLTEwLjM4MmgtMy40NTZMMTIuMDQgMTkuMTdINS4xMTN6Ii8%2BPC9zdmc%2BCg%3D%3D
 [dark-license]: https://img.shields.io/badge/license-MIT-e0af68?style=for-the-badge&labelColor=1a1b26&logo=opensourceinitiative&logoColor=e0af68
 [dark-node]: https://img.shields.io/badge/node-%E2%89%A524-9ece6a?style=for-the-badge&labelColor=1a1b26&logo=nodedotjs&logoColor=9ece6a
 
