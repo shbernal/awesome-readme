@@ -41,7 +41,7 @@ In this order, skipping what the project doesn't have:
 - Center the header block with `<div align="center">`.
 - Logo or banner on top. If the project has none, use the name as a heading and say so to the user.
 - 1 line that says what the project does. Fewer words is better. "Find, verify, and analyze leaked credentials" is the bar.
-- shields.io badges only for facts a newcomer cares about, like version, license, CI status, downloads. Match their style to each other.
+- shields.io badges only for facts a newcomer cares about, like version, license, CI status, downloads. See "Badges".
 - Section links as 1 centered row between 2 `---` rules. Pick by effort:
   - Low effort: plain links separated by bullets (`•`, U+2022) or pipes (`|`).
   - Easy, little customization: `<kbd>` buttons. GitHub fixes their text at 11px.
@@ -58,6 +58,24 @@ In this order, skipping what the project doesn't have:
 ```markdown
 <a href="#install"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav/install-dark.svg"><img alt="Install" src="assets/nav/install-light.svg"></picture></a>
 <a href="#quickstart"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav/quickstart-dark.svg"><img alt="Quickstart" src="assets/nav/quickstart-light.svg"></picture></a>
+```
+
+## Badges
+
+- `style=for-the-badge` on every badge.
+- Pick colors from the project's banner, logo or theme, 1 accent per badge. Pass hex without `#` in `color`. If the project has none, pick 1 cohesive palette, like an editor theme, and tell the user which.
+- For a quieter row, set `labelColor` to the theme background and give the message and `logoColor` the accent.
+- Add a Simple Icons `logo` where one fits, like `nodedotjs` or `npm`, with `logoColor=white` on saturated colors.
+- Prefer service badges (`github/...`, `npm/v/...`) over static ones, so values don't go stale. For a registry shields.io doesn't support, use `badge/dynamic/json` with a JSONPath `query`, and embed the registry's logo as a base64 data URI.
+- Link every badge to its source: CI to the workflow, version to the registry page.
+- Put badge URLs in reference links at the bottom of the file, so the header stays readable.
+- 3 to 5 badges in the header. Runtime or package version badges can go in the install section instead.
+
+```markdown
+[![License][license-badge]][license]
+
+[license]: LICENSE
+[license-badge]: https://img.shields.io/github/license/<owner>/<repo>?style=for-the-badge&color=e0af68
 ```
 
 ## Visuals
@@ -102,4 +120,5 @@ In this order, skipping what the project doesn't have:
 - Comments inside copyable code blocks.
 - Every command or every option. That's `docs/`.
 - Badges for vanity metrics, or more than 1 row of them.
+- Mixed badge styles, or shields.io's default `brightgreen` and `blue`.
 - Images that only read on 1 theme.
