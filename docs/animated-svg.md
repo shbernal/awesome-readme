@@ -42,6 +42,7 @@ Write a plain script, Node or Python, that prints the SVG as text. No animation 
 ```
 
 - Leave 2 to 4 seconds on the finished scene before the loop restarts.
+- Loop an animation meant to play once too, like a banner that draws itself in, and hold its final frame for about 10 seconds before it replays. GitHub caches README images, so a one-shot animation runs only on a hard refresh. Readers reach the README by scrolling down past the file list, so by then it has already finished, and most never learn it moved.
 
 ## Effects
 
