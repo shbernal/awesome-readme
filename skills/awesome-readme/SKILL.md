@@ -65,6 +65,7 @@ In this order, skipping what the project doesn't have:
 - `style=for-the-badge` on every badge.
 - Pick colors from the project's banner, logo or theme, 1 accent per badge. Pass hex without `#` in `color`. If the project has none, pick 1 cohesive palette, like an editor theme, and tell the user which.
 - For a quieter row, set `labelColor` to the theme background and give the message and `logoColor` the accent.
+- Write `≥` (`%E2%89%A5`) instead of `>=`, as in `node-%E2%89%A524`.
 - Add a Simple Icons `logo` where one fits, like `nodedotjs` or `npm`, with `logoColor=white` on saturated colors.
 - Prefer service badges (`github/...`, `npm/v/...`) over static ones, so values don't go stale. For a registry shields.io doesn't support, use `badge/dynamic/json` with a JSONPath `query`, and embed the registry's logo as a base64 data URI.
 - Link every badge to its source: CI to the workflow, version to the registry page.

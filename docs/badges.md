@@ -35,6 +35,8 @@ Escaping in the path:
 | `_` | `__` |
 | `≥` | `%E2%89%A5` |
 
+Write `≥` and `≤` as single characters, not `>=` and `<=`. They read cleaner in uppercase on a narrow badge.
+
 Query parameters that work on every badge:
 
 | Parameter | Does |
